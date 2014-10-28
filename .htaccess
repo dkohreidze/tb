@@ -1,0 +1,5 @@
+#This is the .htaccess
+
+#Tells the server to execute php embedded in html
+AddType application/x-httpd-php .html
+AddHandler application/x-httpd-php .html

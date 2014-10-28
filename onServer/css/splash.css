@@ -21,6 +21,7 @@ html {
   width: 100%;
   height: 470px;
   position: relative;
+  font-family: Lato;
 
 }
 
@@ -41,16 +42,16 @@ html {
 
 #info-container {
   width:100%;
-  height:400px;
+  height:600px;
   background-color: #DDDFE5;
   position: relative;
   text-align: center;
+  font-family: Lato;
 }
 
 
 #info-container h2 {
   font-size: 2em;
-  font-family: Lato;
   position: absolute;
   text-transform: uppercase;
   text-align: center;
@@ -87,12 +88,13 @@ html {
 }
 
 #signup-container {
-  height: 700px;
+  height: 1400px;
   width: 100%;
   background-color: #D6C6D9;
   position: relative;
   text-align: center;
   margin-top: 0px;
+  font-family: Lato;
 }
 
 #signup-container h4 {
@@ -109,12 +111,13 @@ html {
 }
 
 #signup-form {
-  height:425px;
+  height:relative;
   width:500px;
   background-color: #89C863;
   position: relative;
   margin: 0 auto;
-
+  font-family: Lato;
+  padding-bottom: 30px;
 }
 
 #form {
@@ -785,12 +788,15 @@ th {
 }
 .glyphicon-bullhorn:before {
   content: "\e122";
+  font-size: 7em;
+
 }
 .glyphicon-bell:before {
   content: "\e123";
 }
 .glyphicon-certificate:before {
   content: "\e124";
+  font-size: 7em;
 }
 .glyphicon-thumbs-up:before {
   content: "\e125";
@@ -822,6 +828,7 @@ th {
 }
 .glyphicon-circle-arrow-down:before {
   content: "\e134";
+  font-size: 7em;
 }
 .glyphicon-globe:before {
   content: "\e135";
