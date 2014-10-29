@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link type="text/css" rel="stylesheet" href="fonts/Lato2OFLWeb/Lato/Lato-Regular.css"/>   
 
-    <title>Tolerance Break</title>
+    <title>Tolerance Break | Writers</title>
 
     <!-- Bootstrap -->
       <link href="css/splash.css" rel="stylesheet">   
@@ -59,6 +59,9 @@
        if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
          $emailErr = "I may be high, but that doesn't look like an email address...";
          $canAddWriter = FALSE; 
+       }else if(email_exists($email)){
+         $emailErr = "It looks like we already have this email address in our system, have you applied already?";
+         $canAddWriter = FALSE;
        }
      }
 
@@ -188,7 +191,7 @@
             </div>
             <div class="checkbox">
               <label>
-                By clicking submit, you agree with the ToleranceBreak terms/conditions (need to link terms/conditions here).
+                By clicking submit, you agree with the ToleranceBreak <a href="terms.html">terms/conditions</a>.
               </label>
             </div>
 
