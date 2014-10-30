@@ -117,8 +117,8 @@
     <!--</nav> -->     
 
     <div class="container-fluid" id="main-video">
-      <video width="100%" height="100%" autoplay>
-        <source src="css/videos/logo_vid1.mp4" type="video/mp4">
+      <video width="100%" height="" autoplay>
+        <source src="css/videos/logo_vid1_cropped.mp4" type="video/mp4">
         Your browser does not support the video tag.
       </video>
     </div><!-- /#main-video-->  
