@@ -16,6 +16,18 @@ html {
 
 */
 
+#navbar-accent {
+  height: 100%;
+  width: auto;
+  overflow: hidden;
+  float: right;
+  margin-top: 0px;
+}
+
+#navbar-accent img{
+  position:absolute;
+  height:100%;
+}
 
 #main-image {
   width: 100%;
@@ -59,7 +71,7 @@ html {
 #info-container {
   width:100%;
   height:600px;
-  background-color: #DDDFE5;
+  background-color: rgb(146, 96, 208);
   position: relative;
   text-align: center;
   font-family: Lato;
@@ -72,7 +84,7 @@ html {
   text-transform: uppercase;
   text-align: center;
   width: 100%;
-  color:black;
+  color:white;
   padding-top: 35px;
  
 }
@@ -129,7 +141,7 @@ html {
   text-transform: uppercase;
   text-align: center;
   width: 100%;
-  color: black;
+  color: white;
   padding-top: 58px;
   padding-bottom: 35px;
 
@@ -4051,6 +4063,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   margin-bottom: 0;
   border-width: 1px 0 0;
 }
+
+
 .navbar-brand {
   height: 91px;
   width: 486px;
@@ -4061,9 +4075,19 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   background-size: 100% 100%;
   background-repeat: no-repeat;
   margin-top: 5px;
-
-
 }
+
+.navbar-accent {
+  height: 91px;
+  width: auto;
+  overflow: hidden;
+  float: right;
+  background-image: url("images/header_accent.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  margin-top: 0px;
+}
+
 .navbar-brand:hover,
 .navbar-brand:focus {
   text-decoration: none;
