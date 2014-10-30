@@ -115,7 +115,7 @@ html {
 #signup-container {
   height: 1400px;
   width: 100%;
-  background-color:rgba(95, 171, 221, 0.85);
+  background-color:rgb(45, 179, 225);
   position: relative;
   text-align: center;
   margin-top: 0px;
@@ -4057,7 +4057,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   text-indent: -500px;
   overflow: hidden;
   float: left;
-  background-image: url("images/TB_logo.png");
+  background-image: url("images/TB_White.png");
   background-size: 100% 100%;
   background-repeat: no-repeat;
   margin-top: 5px;
@@ -4274,7 +4274,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   }
 }
 .navbar-default {
-  background-color: #FFFFFF;
+  background-color:rgb(45, 179, 225);
   border-color: #000000;
 }
 .navbar-default .navbar-brand {
