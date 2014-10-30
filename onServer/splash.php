@@ -97,10 +97,10 @@
 
 ?>
 
-    <nav class="navbar navbar-default navbar-static-top" role="navigation">
-      <div class="container-fluid">
+    <!-- <nav class="navbar navbar-default navbar-static-top" role="navigation">
+      <div class="container-fluid"> -->
         <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header">
+       <!--  <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
@@ -108,15 +108,20 @@
             <span class="icon-bar"></span>
           </button>
           <a class="navbar-brand" href="#">Tolerance Break</a>
-        </div>
-
+        </div> -->
         <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-          <ul class="nav navbar-nav"></ul>
-        </div><!-- /.navbar-collapse -->
-      </div><!-- /.container-fluid -->
-    </nav>      
+       <!--  <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav"></ul> -->
+       <!-- </div> --><!-- /.navbar-collapse -->
+      <!-- </div> --><!-- /.container-fluid -->
+    <!--</nav> -->     
 
+    <div class="container-fluid" id="main-video">
+      <video width="100%" height="100%" autoplay>
+        <source src="css/videos/logo_vid1.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div><!-- /#main-video-->  
 
 
 
