@@ -5,19 +5,19 @@
  * @package tolerance-break
  */
 ?>		
-		<footer class="footer clearfix">
-			
+		<footer class="footer clearfix">			
 			<p class="footer-left">
 				&copy; 2015
 			</p>
 			
 			<a class="footer-logo" href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="nofollow">
-				<img src="<?php bloginfo('template_url') ?>/images/logo_black.png" alt="">
+				<img src="<?php bloginfo('template_url') ?>/images/logo_black.png" alt="Tolerance Break">
 			</a>
 		</footer>
 		<?php wp_footer(); ?>
 	</body>
 
+	<!-- Google Analytics -->
 	<script>
 		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -27,4 +27,5 @@
 		ga('create', 'UA-65630107-1', 'auto');
 		ga('send', 'pageview');
 	</script>
+
 </html>

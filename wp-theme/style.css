@@ -78,7 +78,7 @@ img{
 .header{
 	background: #83c870;  
 	height: 45px;
-	padding: 5px 30px;
+	padding: 5px 50px;
 }
 .header .logo{
 	display: inline-block;
@@ -138,12 +138,19 @@ img{
 	text-indent: 2em;
 }
 .post-content img {
-    max-width: 100%;
+    max-width: 70%;
     height: auto;
+    padding: 15px 0 15px 0;
 }
 .post-content ol {
-	padding-right: 30px;
-	padding-left: 30px;
+	padding-right: 25px;
+	padding-left: 25px;
+}
+.post-content p {
+	margin: 10px 0 10px 0;
+}
+.post-content li {
+	padding-top: 20px;
 }
 
 /* subscribe-form */
@@ -273,6 +280,10 @@ img{
 	.post-content {
 		font-size: 16px;
 		margin-top: 15px;
+	}
+	.post-content img {
+	    max-width: 90%;
+	    height: auto;
 	}
 	.subscribe-form-section h2{
 		font-size: 16px;
