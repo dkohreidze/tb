@@ -63,7 +63,7 @@ get_header(); ?>
 			<form action="http://tolerancebreak.us11.list-manage.com/subscribe/post" method="POST" class="subscribe-form">
 				<input type="hidden" name="u" value="86e80e07014ac73b4c4ac190b">
 				<input type="hidden" name="id" value="e5ecc9d643"> 
-				<input type="email" autocapitalize="off" autocorrect="off" name="MERGE0" id="MERGE0" size="25" value="">
+				<input type="email" autocapitalize="off" autocorrect="off" name="MERGE0" id="MERGE0">
 				<input type="submit" value=" " onclick="ga('send', 'event', 'Email Capture', 'Form Submit', 'Article');">
 			</form>
 		</div>

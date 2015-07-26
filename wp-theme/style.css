@@ -179,8 +179,8 @@ img{
 .subscribe-form input[type="submit"]{
 	border: none;
 	height: 30px;
-	width: 28px;
-	background: url(images/arrow.png) no-repeat center center #a36dd1;
+	width: 30px;
+	background: url(images/arrow.png) no-repeat center #a36dd1;
 	position: absolute;
 	right: 0;
 	top: 0;
@@ -298,7 +298,6 @@ img{
 	.subscribe-form-section h2{
 		margin-top: 0;
 	}
-
 	.subscribe-form-section{
 		margin-bottom: 20px;
 		margin-top: 25px;
