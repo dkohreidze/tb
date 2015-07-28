@@ -88,7 +88,6 @@ img{
 .banner{
 	text-align: center;
 	position: relative;
-	margin-bottom: 45px;
 	min-height: 100px;
 	background-color: black;
 }
@@ -117,6 +116,7 @@ img{
 .posted-date-cat {
 	font-family: Helvetica;
 	font-size: 18px;
+	margin-top: 25px;
 }
 
 .posted-date-cat a{
@@ -265,9 +265,6 @@ img{
 }
 /* mobile */
 @media (max-width:600px){
-	.banner {
-		margin-bottom: 20px;
-	}
 	.banner h1{
 		font-size: 20px;
 	}
